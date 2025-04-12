@@ -59,3 +59,8 @@ print(f"Join the words back together: {join_word}")
 text = "banana"
 char_count = text.count('a')
 print(f"Counting Characters: character count:{char_count}")
+
+# 11. split
+quote = "Knowledge is power"
+res = quote.split()
+print(res)
